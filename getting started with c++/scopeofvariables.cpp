@@ -5,6 +5,7 @@ int a=10;
 int newfunc(){
     int b=100; //this is local variable, it can be accessed only in this function.
     cout<<a /*global variable */<<" "<<b<<endl;
+    return 0;
 }
 int main(){
     int b=20;
