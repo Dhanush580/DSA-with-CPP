@@ -27,10 +27,23 @@ int main(){
    double d1= 10.1234567890123456;
    double d2= -10.1234567890123456;
    cout << d1 << " " << d2 <<endl;
-
+ 
+   //to store char, we need to use only single quotes, not double quotes
    char alphabet= 'a';
    cout << alphabet<<endl;
 
    string name="Dhanush";
-   cout << name;
+   cout << name<<endl;
+
+    // bool ans=true;
+    // bool ans=false;
+    bool ans= 10<5;
+    cout<< ans <<endl;
+
+
+    //there is a special keyword in cpp called "auto" which automatically deduces the data type of a variable at compile time
+    auto x = 5; // int
+    auto y = 10.5; // double
+    auto z = "Hello"; // const char*
+    cout << x << " " << y << " " << z << endl;
 }
