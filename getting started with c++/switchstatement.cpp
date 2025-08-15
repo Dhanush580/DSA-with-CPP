@@ -1,13 +1,11 @@
 #include<iostream>
 using namespace std;
-
 int main(){
     int day;
     cout<<"Tutorial for switch statement"<<endl;
     cout<<"enter any number of the week"<<endl;
-
     cin>>day;
-
+   
     switch(day){
         case 1:
         cout<<"Sunday";
