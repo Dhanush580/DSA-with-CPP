@@ -24,7 +24,7 @@ void merge(int arr[], int low, int high, int mid){
         rightPointer++;
     }
     for (int i = 0; i < temparr.size(); i++) {
-        arr[low + i] = temparr[i];
+        arr[low+ i] = temparr[i];
     }
 
 
